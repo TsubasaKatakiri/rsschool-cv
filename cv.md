@@ -13,6 +13,11 @@
 * __Telegram:__ [@aliakseireut](https://t.me/Aliaksei_Reut)
 * __Discord:__ [Tsubasa Katakiri](https://discordapp.com/users/844284828114354186)
 
+## __About me__
+
+Good daytime! I'm 31 years old, currently working as a sales manager, but willing to find my place in the world of front-end development. I've finished long-term courses at the STEP IT Computer Academy (Minsk) as a software developer. I have good basic programming knowledge and write code with confidence and passion. My greatest strengths are high workability, diligence and great will for learning new technologies and honing existing skills.
+
+
 
 ## __Education__
 
@@ -21,5 +26,16 @@
     + _STEP IT Computer Academy (Minsk)_ (Software Development) — 2019-2022
 * __Courses__
     + _Clevertec Frontend Lab(2023, 2024)_
-    + _RS School Course «JavaScript/Front-end. Stage#0»_
-    + _RS School Course «JavaScript/Front-end. Stage#1» (in progress)_
+    + _RS School Course «JavaScript/Front-end. Stage#0»(2024)_
+    + _RS School Course «JavaScript/Front-end. Stage#1»(in progress)_
+
+
+
+## __Experience__   
+
+* __Doctor__ — 2016-2020
+* __Sales Manager__ — 2023-present
+
+## __Languages__
+* __Russian__ — Native
+* __English__ — B1

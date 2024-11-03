@@ -17,7 +17,20 @@
 
 Good daytime! I'm 31 years old, currently working as a sales manager, but willing to find my place in the world of front-end development. I've finished long-term courses at the STEP IT Computer Academy (Minsk) as a software developer. I have good basic programming knowledge and write code with confidence and passion. My greatest strengths are high workability, diligence and great will for learning new technologies and honing existing skills.
 
+## __Skills__
 
+* Hard skills
+    + HTML5
+    + CSS3, SASS, BEM methodology
+    + JavaScript (ES6+) / TypeScript
+    + React, React-Redux, Redux-Toolkit
+    + REST API
+    + Git
+    + Figma
+* Soft skills
+    + High workability
+    + Sociability, friendliness, tolerance
+    + Effective and quick learnability
 
 ## __Education__
 
@@ -29,7 +42,26 @@ Good daytime! I'm 31 years old, currently working as a sales manager, but willin
     + _RS School Course «JavaScript/Front-end. Stage#0»(2024)_
     + _RS School Course «JavaScript/Front-end. Stage#1»(in progress)_
 
+## __Code example__
 
+__[RGB To Hex Conversion kata from CODEWARS](https://www.codewars.com/kata/513e08acc600c94f01000001/train/javascript)__
+
+The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+```
+function rgb(r, g, b) {
+  let red = r, green = g, blue = b;
+  if(red > 255) red = 255;
+  if(green > 255) green = 255;
+  if(blue > 255) blue = 255;
+  if(red < 0) red = 0;
+  if(green < 0) green = 0;
+  if(blue < 0) blue = 0;
+  return `${('00' + red.toString(16).toUpperCase()).slice(-2)}${('00' + green.toString(16).toUpperCase()).slice(-2)}${('00' + blue.toString(16).toUpperCase()).slice(-2)}`;
+}
+```
 
 ## __Experience__   
 

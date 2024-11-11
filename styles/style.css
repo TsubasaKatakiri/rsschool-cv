@@ -1,0 +1,104 @@
+:root{
+    --background-color-1: #CCCCCC;
+    --background-color-2: #FFFFFF;
+    --font-color: #181818;
+    --border-color: #686868;
+    --accent: #ff258b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    background-color: var(--background-color-1);
+    font-family: "Poppins", serif;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: var(--background-color-2);
+    padding: 0 40px;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 0;
+    border-bottom: 2px dotted var(--border-color);
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.main-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px dotted var(--border-color);
+    margin-bottom: 20px;
+}
+
+.person-avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.person-name{
+    font-weight: 300;
+    font-size: 72px;
+    font-style: italic;
+    color: var(--accent);
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left-column{
+    width: 480px;
+}
+
+.right-column{
+    width: calc(1280px - 480px);
+}
+
+
+
+.footer-course-link{
+    width: 48px;
+    height: 48px;
+}

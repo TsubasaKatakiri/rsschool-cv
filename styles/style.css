@@ -17,7 +17,7 @@ html{
 }
 
 body{
-    width: 100vw;
+    width: 100%;
     background-color: var(--background-color-1);
     font-family: "Poppins", serif;
 }
@@ -47,14 +47,14 @@ footer{
     border-bottom: 2px dotted var(--border-color);
 }
 
-.nav-link{
+.nav-link, .normal-link{
     text-decoration: none;
     color: var(--accent);
     font-weight: 600;
     font-style: italic;
 }
 
-.nav-link:hover{
+.nav-link:hover, .normal-link:hover{
     text-decoration: underline;
 }
 
@@ -90,13 +90,57 @@ footer{
 
 .left-column{
     width: 480px;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px dotted var(--border-color);
 }
 
 .right-column{
-    width: calc(1280px - 480px);
+    width: calc(1280px - 520px);
 }
 
+.info-section{
+    padding: 10px 0;
+    width: 100%;
+}
 
+.info-section:first-child{
+    padding-top: 0;
+}
+
+.info-section:last-child{
+    padding-top: 0;
+}
+
+.info-title{
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+    color: var(--accent);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-list{
+    list-style-type: none;
+}
+
+.social-list{
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-list svg{
+    fill: var(--font-color);
+}
+
+.social-list svg:hover{
+    fill: var(--accent);
+}
 
 .footer-course-link{
     width: 48px;

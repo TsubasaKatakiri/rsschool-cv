@@ -204,18 +204,18 @@
                         <div class="code-block">
 <pre class="pre-code">
 <code>
-function rgb(r, g, b) {
-    let red = r, green = g, blue = b;
-    if(red &gt; 255) red = 255;
-    if(green &gt; 255) green = 255;
-    if(blue &gt; 255) blue = 255;
-    if(red &lt; 0) red = 0;
-    if(green &lt; 0) green = 0;
-    if(blue &lt; 0) blue = 0;
-    return `${('00' + red.toString(16).toUpperCase()).slice(-2)}
-            ${('00' + green.toString(16).toUpperCase()).slice(-2)}
-            ${('00' + blue.toString(16).toUpperCase()).slice(-2)}`;
-}
+<span class="code-keyword">function</span> <span class="code-function">rgb</span><span class="code-return">(</span>r, g, b<span class="code-return">) {</span>
+    <span class="code-keyword">let</span> red = r, green = g, blue = b;
+    <span class="code-keyword">if</span> <span class="code-return">(</span>red &gt; <span class="code-number">255</span><span class="code-return">)</span> red = <span class="code-number">255</span>;
+    <span class="code-keyword">if</span> <span class="code-return">(</span>green &gt; <span class="code-number">255</span><span class="code-return">)</span> green = <span class="code-number">255</span>;
+    <span class="code-keyword">if</span> <span class="code-return">(</span>blue &gt; <span class="code-number"></span>255<span class="code-return">)</span> blue = <span class="code-number">255</span>;
+    <span class="code-keyword">if</span> <span class="code-return">(</span>red &lt; <span class="code-number">0</span><span class="code-return">)</span> red = <span class="code-number">0</span>;
+    <span class="code-keyword">if</span> <span class="code-return">(</span>green &lt; <span class="code-number">0</span><span class="code-return">)</span> green = <span class="code-number">0</span>;
+    <span class="code-keyword">if</span> <span class="code-return">(</span>blue &lt; <span class="code-number">0</span><span class="code-return">)</span> blue = <span class="code-number">0</span>;
+    <span class="code-return">return</span> <span class="code-string">`${</span>(<span class="code-number">'00'</span> + red.<span class="code-function">toString(<span class="code-number">16</span>).toUpperCase()).slice(<span class="code-number">-2</span>)</span><span class="code-string">}</span>
+        <span class="code-string">${</span>(<span class="code-number">'00'</span> + green<span class="code-function">.toString(<span class="code-number">16</span>).toUpperCase()).slice(<span class="code-number">-2</span>)</span><span class="code-string">}</span>
+        <span class="code-string">${</span>(<span class="code-number">'00'</span> + blue.<span class="code-function">toString(<span class="code-number">16</span>).toUpperCase()).slice(<span class="code-number">-2</span>)</span><span class="code-string">}`</span>;
+<span class="code-return">}</span>
 </code>
 </pre>
                         </div>
